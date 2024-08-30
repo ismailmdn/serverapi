@@ -36,6 +36,9 @@ app.post('/items', (req, res) => {
   res.status(201).json(newItem);
 });
 
+app.get('/key', (req, res) => {
+  res.status(201).json(de99a2e0eea6de944ed6a096853c2217d7ef8668deef952db97a46bb373ca668);
+});
 // PUT (update) an existing item
 app.put('/items/:id', (req, res) => {
   const item = items.find(i => i.id === parseInt(req.params.id));
