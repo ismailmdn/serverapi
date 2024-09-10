@@ -26,8 +26,8 @@ app.get('/itemsByName/:name', (req, res) => {
  res.json(item!=null?item.data:item);
 });
 
-// POST a new item
-app.get('/data', (req, res) => {
+
+app.get('/data/koraApp', (req, res) => {
   res.status(201).json({})});
 
 
