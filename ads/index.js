@@ -27,7 +27,7 @@ app.get('/itemsByName/:name', (req, res) => {
 });
 
 // POST a new item
-app.post('/itemsads', (req, res) => {
+app.post('/data', (req, res) => {
   res.status(201).json({"key":"1"})});
 
 
