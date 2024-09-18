@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 
-const koraRoutes = require('./koraRoutes');
+const koraRoutes = require('./Routes/koraRoutes');
 
 
 app.use(express.json());
