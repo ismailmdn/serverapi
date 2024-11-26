@@ -6,7 +6,7 @@ const port = 3000;
 // Import the Kora routes
 const koraRoutes = require('./Routes/koraRoutes');
 const FileManagerRoutes = require('./Routes/FileManagerRoutes');
-const movie = require('./Routes/movies');
+const movies = require('./Routes/movies');
 // Middleware to parse JSON
 app.use(express.json());
 
