@@ -9,7 +9,7 @@ router.get('/data', (req, res) => {
 });
 
 router.get('/key', (req, res) => {
-  res.status(201).json({ "key": '2bf6a59e99628d07f41c161612c31f81746b288efbe3cab033b0aed716e95e53' });
+  res.status(201).json({ "key": '45d0f9e2461f568afdd12c36c033490bb83495b1a2d397de92a5eb588196675e' });
 });
 
 module.exports = router;
